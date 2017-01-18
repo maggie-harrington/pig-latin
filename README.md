@@ -8,9 +8,9 @@ This project is a simple program that receives an input from the user in the for
 
 | Behavior | Input Example | Output Example |
 |----------|:-------------:|----------------|
+| non-letter characters | 42 | 42 |
 | One vowel | a | aay |
 | One consonant | b | bay |
-| non-letter characters | 42 | 42 |
 | Short word starting with vowel | auto | autoay |
 | Short word starting with consonant | latin | atinlay |
 | Words beginning with y | yes | esyay |
