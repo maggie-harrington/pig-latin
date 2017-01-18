@@ -11,7 +11,7 @@ This project is a simple program that receives an input from the user in the for
 | One vowel | a | aay |
 | One consonant | b | bay |
 | non-letter characters | 42 | 42 |
-| Short word starting with vowel | auto | utoay |
+| Short word starting with vowel | auto | autoay |
 | Short word starting with consonant | latin | atinlay |
 | Words beginning with y | yes | esyay |
 | Words with starting consonants including "qu" | squeal | ealsquay |
