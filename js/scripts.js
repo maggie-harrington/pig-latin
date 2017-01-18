@@ -1,5 +1,6 @@
 var answerr = [];
 var stringArray = [];
+var regvow = /[aeiou]{1,}/
 var reg = /[qwrtypsdfghjklzxcvbnm]{1,}/
 var regnum = /[1234567890]{1,}/
 
@@ -8,7 +9,7 @@ function converter() {
     var value = stringArray[i];
     if (regnum.exec(value[0]) != null) {
       answerr.push(value);
-    } else if (value[0] === "a" || value[0] === "e" || value[0] === "i" || value[0] === "o" || value[0] === "u") {
+    } else if (regvow.exec(value[0]) != null) {
       answerr.push(value + "ay");
     } else if (reg.exec(value[0]) != null) {
       var cut = reg.exec(value)[0];
